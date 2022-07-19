@@ -1,0 +1,34 @@
+.card {
+    height: 200px;
+    background-color: blue;
+    font-size: 50px;
+    color: black;
+    border-radius: 7px;
+    margin: 10px
+}
+
+.notVisible {
+    visibility: hidden;
+}
+
+.visible {
+    margin: auto;
+    visibility: visible;
+}
+
+.matchCard {
+    visibility: hidden;
+}
+
+.pickedCard {
+    display: flex;
+    background-color: brown;
+    font-size: 50px;
+    color: antiquewhite;
+
+}
+
+.mouseOverCard {
+    cursor: pointer;
+    box-shadow: 0 0 10px blue
+}
